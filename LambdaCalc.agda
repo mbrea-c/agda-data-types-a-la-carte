@@ -77,7 +77,7 @@ data Variable : Set₁ → Set₁ where
     → Γ ∋ A
     → Variable E
 
-data Lambda : Set₁ → Set₁ where
-  `_ : ∀ {E : Set₁} {Tp : Set → Set} {Γ : Context Tp} {A B : Type Tp}
-    → E (Γ , A) B
-    → Variable E
+-- data Lambda : {} Set₁ → Set₁ where
+--   `_ : ∀ {E : Set₁} {Tp : Set → Set} {Γ : Context Tp} {A B : Type Tp}
+--     → E (Γ , A) B
+--     → Variable E

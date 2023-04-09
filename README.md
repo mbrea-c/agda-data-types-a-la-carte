@@ -1,2 +1,5 @@
-# agda-data-types-a-la-carte
-Agda implementation of the Data types à la carte framework in Agda, and partial application to a formal treatment of the Simply Typed Lambda Calculus which shows where the first significant roadblocks are encountered. 
+# Data types à la carte in Agda
+
+Agda implementation of the _Data types à la carte_ framework, including a simple example and a
+partial application to a formal treatment of the Simply Typed Lambda Calculus which shows
+where the first significant roadblocks are encountered.
